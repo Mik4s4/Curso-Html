@@ -1,0 +1,29 @@
+<script>
+ // problema lanzamiento de dado //
+  document.writeln("presentado por Katalina Patino <br>")
+  
+ var dado1;
+ var dado2;
+
+ dado1 = parseInt(prompt( " por favor ingrese valor del dado 1 " ));
+ dado2 = parseInt(prompt( " por favor ingrese valor del dado 2 "));
+
+ if ( dado1 == dado2 ){
+    document.writeln( " Par <br> " )
+ } else {
+    document.writeln( " Lanzamiento <br> " )
+ }
+
+  if ( dado1 + dado2  < 6 ){
+    document.writeln( " Juego Perdido <br> " )
+ }
+  
+  if ( dado1==1 || dado2==2 ){
+    document.writeln( " Puntaje Deficiente <br> " )
+ }
+
+  if ( dado1==5 || dado2==6  ){
+    document.writeln( " Puntaje Alto <br> " )
+ }
+
+</script>

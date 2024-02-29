@@ -1,0 +1,24 @@
+<script> 
+    var horas;
+    horas = parseInt(prompt("ingrese las horas"));
+    var minutos;
+    minutos = parseInt(prompt("ingrese los minutos"));
+    var segundos;
+    segundos = parseInt(prompt("ingrese los segundos"));
+    
+    var tiempo_horas = 0;
+    tiempo_horas = (horas)+(segundos/3600)+(minutos/60);
+    document.write("el tiempo en horas es: " + tiempo_horas + "<BR>" );
+
+    var tiempo_minutos= 0;
+    tiempo_minutos = (minutos)+(segundos/60)+(horas*60);
+    document.write("el tiempo en minutos es: " + tiempo_minutos + "<BR>");
+
+    var tiempo_segundos = 0;
+    tiempo_segundos = (segundos)+(minutos*60)+(horas*3600);
+    document.write("el tiempo en segundos es: " + tiempo_segundos + "<BR>");
+    
+</script> 
+
+
+   

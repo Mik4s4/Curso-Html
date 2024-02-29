@@ -1,0 +1,23 @@
+<script>
+var codigo;
+codigo= prompt(" introduzca el codigo: ");
+var nombre;
+nombre= prompt(" introduzca el nombre: ");
+var nota1;
+nota1= parseFloat(prompt(" introduzca la nota 1: "));
+var nota2;
+nota2= parseFloat(prompt(" introduzca la nota 2: "));
+var nota3;
+nota3= parseFloat(prompt(" introduzca la nota 3: "));
+var promedio= 0.0;
+promedio=(nota1+nota2+nota3)/3;
+
+document.writeln(" codigo: <b> "+ codigo + "</b>");
+document.writeln(" nombre: <b> "+ nombre + "</b>");
+
+document.writeln(" nota1: <b> "+ nota1 + "</b>");
+document.writeln(" nota2: <b> "+ nota2 + "</b>");
+document.writeln(" nota3: <b> "+ nota3 + "</b>");
+
+document.write("el promedio de  "+ nombre + " con el codigo: " + codigo + " tuvo un resultado de " + promedio + " en su promedio");
+</script>
